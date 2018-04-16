@@ -3,7 +3,7 @@ import Button from "antd/lib/button";
 import "./App.css";
 
 class App extends React.Component {
-  render() {
+  public render() {
     return (
       <div className="App">
         <Button type="primary">Button</Button>
