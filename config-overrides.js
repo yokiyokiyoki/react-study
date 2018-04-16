@@ -14,8 +14,8 @@ module.exports = function override(config, env) {
     getCustomTransformers: () => ({
       before: [
         tsImportPluginFactory({
-          libraryName: "antd",
           libraryDirectory: "es",
+          libraryName: "antd",
           style: "css"
         })
       ]
